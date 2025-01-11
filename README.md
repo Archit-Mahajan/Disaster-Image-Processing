@@ -1,6 +1,6 @@
 # Disaster-Image-Processing
 
-Features
+#Features
 Grayscale Conversion
 Converts RGB images to grayscale for better processing.
 
