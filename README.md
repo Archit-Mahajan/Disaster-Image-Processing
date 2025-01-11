@@ -1,6 +1,6 @@
 # Disaster-Image-Processing
 
-#Features
+# Features
 Grayscale Conversion
 Converts RGB images to grayscale for better processing.
 
@@ -19,7 +19,8 @@ Classifies images as Fire, Flood, or Unknown based on average red and blue inten
 Final Output with Edge Overlay
 Overlays detected edges on the contrast-enhanced image and saves results.
 
-Prerequisites
+# Prerequisites
+
 MATLAB environment installed.
 Input images in .jpg format.
 Knowledge of basic MATLAB functions.
@@ -31,7 +32,7 @@ Output Directory
 Update the output_folder variable with the desired path to save processed images.
 If the folder doesn’t exist, the script will create it automatically.
 
-Step-by-Step Process
+# Step-by-Step Process
 Image Loading and Grayscale Conversion
 
 Reads images from the input directory.
@@ -56,7 +57,7 @@ Final Image with Edge Overlay
 
 Superimposes edges on the contrast-enhanced image using visboundaries().
 Saves the final output with disaster classification in the title.
-Execution and Output
+# Execution and Output
 The script processes all .jpg images in the input folder.
 Stepwise processed images (grayscale, denoised, edges, contrast-adjusted, and final overlay) are saved in the output folder.
 Disaster classification results are printed in the MATLAB console.
